@@ -1,0 +1,110 @@
+/**************************tag selectors****************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;}
+hr{border-style: none;
+  border-top-style: dotted;
+  width: 7%;
+  border-width: 8px;
+border-color: grey;
+  margin-top: 80px;}
+h1 {
+  font-family: 'Sacramento', serif;
+  font-size: 5.625em;
+  color: #66BFBF;
+  line-height: normal;}
+h2{font-size: 2.5em;
+font-family: 'Sacramento', cursive;
+color: #66BFBF;
+font-weight: normal;}
+h3 {font-family: 'Montserrat', sans-serif;
+color: #11999E;}
+p{color: #363636;
+ font-weight: lighter;
+ line-height: 2;}
+a{color: #11999E;
+ margin: 20px 30px;
+ text-decoration: none;
+ font-family: 'Merriweather', serif;}
+a:hover{background-color: #EAF6F6;}
+
+/*************************class selectors***************************/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: powderblue;
+}
+
+.midle-container {
+  padding-top: 100px;
+}
+.intro{width: 30%;
+margin: auto;}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 70px;
+  bottom: 300px;
+}
+
+.profpic {
+  border-radius: 50%;
+  height: 200px;
+}
+.skillimg{
+  height: 200px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 30px;}
+.skillimg2 {
+  height: 200px;
+  right: 10px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  }
+.skill-row {
+  padding-top: 40px;
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+.skills {
+  padding-top: 50px;}
+.h-3{text-align: left;}
+.p-1{line-height: 2;
+  clear: left;}
+.BUTTON_LGR{
+  background-color: #11999E;
+  border: none;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:20%;}
+.bottom-container{
+background-color: #66BFBF;
+height:  70px;
+padding-top: 30px;}
+.copyright{color: #EAF6F6;}
+.contact{
+width: 30%;
+margin: 20px auto;}
+.BUTTON_LGR:hover{background-color: blue;}
+.underline{text-decoration: underline;}
